@@ -1,0 +1,44 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css?family=Candal&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+/* general style */
+html {
+    font-size: 62.5%;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Candal', sans-serif;
+}
+*{box-sizing: border-box;margin: 0;padding: 0}
+
+/* body style */
+body{
+    margin:auto;
+    max-width: 80%;
+    font-family: 'Open Sans', sans-serif;
+    background-color:#FCFCFC;
+}
+/* header style */
+header{margin-top: 3rem}
+header h1{font-size: 2.5rem;text-align: center;margin-bottom: 3rem}
+header section p{font-size: 2rem;text-align: center;margin-left: 4rem;margin-right:4rem }
+nav{
+    font-size: 1.4rem;
+    font-weight: bolder;
+    margin-bottom: 5rem;
+}
+nav ul{list-style-type: none}
+nav ul{display:flex;flex-direction: row-reverse;justify-content:space-between}
+nav ul li{display: flex;flex-direction: column;justify-content: center;align-items: center}
+nav i{margin-bottom: 0.3rem;color: #FE8999}
+nav a {text-decoration: none;color: #263B50}
+nav img{width: 5rem;height: 5rem}
+
+header section{
+    color: whitesmoke;
+    height: 40rem;
+    display: flex;align-items: center;justify-content: center ;
+    background-image: url("img/background.jpg");
+    background-size: cover;
+}
+header >p {color:whitesmoke;font-size:2rem;text-transform: uppercase;background-color: #FE8999;padding: 1.5rem 4rem}
